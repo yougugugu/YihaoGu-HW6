@@ -1,0 +1,105 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.4.0 (Oracle Corporation Java 1.8.0_281)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 630.2539ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 353.1067ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.9489ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\guyih\OneDrive\Desktop\scala\CSYE7200\assignment-web-crawler\project[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\guyih\OneDrive\Desktop\scala\CSYE7200\assignment-web-crawler\project, returning: ()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 25.1159 ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(assignment-web-crawler-build) took 88.1406ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id assignment-web-crawler-build, base: C:\Users\guyih\OneDrive\Desktop\scala\CSYE7200\assignment-web-crawler\project, plugins: List(<none>))) took 157.7572ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\guyih\OneDrive\Desktop\scala\CSYE7200\assignment-web-crawler\project, returning: (assignment-web-crawler-build)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 194.8876ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 0.5344ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/C:/Users/guyih/OneDrive/Desktop/scala/CSYE7200/assignment-web-crawler/project/, ...) took 565.3923ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 954.3493ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 11.5371ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 104.8912ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 11.1533ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 1648.0383ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 124.7548ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 2.6615ms[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from C:\Users\guyih\OneDrive\Desktop\scala\CSYE7200\assignment-web-crawler\project[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 4180.1635ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.0063ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\guyih\OneDrive\Desktop\scala\CSYE7200\assignment-web-crawler[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 15.2008ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\guyih\OneDrive\Desktop\scala\CSYE7200\assignment-web-crawler, returning: ()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 3.0852 ms[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project assignment-web-crawler from build.sbt ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(assignment-web-crawler) took 6.609ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id assignment-web-crawler, base: C:\Users\guyih\OneDrive\Desktop\scala\CSYE7200\assignment-web-crawler, plugins: List(<none>))) took 10.5722ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\guyih\OneDrive\Desktop\scala\CSYE7200\assignment-web-crawler, returning: (assignment-web-crawler)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 338.9095ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 10.5545ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/C:/Users/guyih/OneDrive/Desktop/scala/CSYE7200/assignment-web-crawler/, ...) took 4531.4388ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 4553.0803ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.1222ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 13.8518ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.5013ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 110.2994ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 34.6993ms[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.0031ms[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mset current project to WebCrawler (in build file:/C:/Users/guyih/OneDrive/Desktop/scala/CSYE7200/assignment-web-crawler/)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\guyih\OneDrive\Desktop\scala\CSYE7200\assignment-web-crawler\target\scala-2.13\test-classes ...[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mMonadOpsSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mLiftFuture[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mAsFuture[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mSequenceForgivingWithLogging[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mSequenceWithLogging[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mSequenceForgiving[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mLiftTry[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mZip[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mzip(Option,Option)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should succeed[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mzip(Try,Try)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should succeed[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mzip(Future,Future)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should succeed[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mOptionToTry[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work1[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work2[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mSequence[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work1[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work2[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work3[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work4[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work5[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mmapFuture[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mLiftOption[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mMap2[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFlatten[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work1[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work2[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work3[0m[0m[0J
